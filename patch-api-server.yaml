@@ -8,6 +8,6 @@ spec:
   servingCerts:
     namedCertificates:
     - names:
-      - api.openshift-cluster-name.base-domain.tld
+      - $(API_DOMAIN)
       servingCertificate:
         name: api-domain-tls
