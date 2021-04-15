@@ -1,0 +1,4 @@
+varReference:
+- path: spec/servingCerts/namedCertificates/names
+  kind: APIServer
+  apiVersion: config.openshift.io/v1
