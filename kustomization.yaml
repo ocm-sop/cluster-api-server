@@ -3,6 +3,9 @@ kind: Component
 
 generatorOptions:
   disableNameSuffixHash: true
+  
+configurations:
+  - kustomization.yaml
 
 components:
   - github.com/ocm-sop/api-domain-tls-cert?ref=main
